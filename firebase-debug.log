@@ -1,0 +1,39 @@
+[debug] [2024-03-08T13:15:33.345Z] ----------------------------------------------------------------------
+[debug] [2024-03-08T13:15:33.349Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hassa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-03-08T13:15:33.349Z] CLI Version:   13.4.1
+[debug] [2024-03-08T13:15:33.349Z] Platform:      win32
+[debug] [2024-03-08T13:15:33.350Z] Node Version:  v20.10.0
+[debug] [2024-03-08T13:15:33.350Z] Time:          Fri Mar 08 2024 18:15:33 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-03-08T13:15:33.350Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-08T13:15:33.357Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-08T13:15:33.358Z] > authorizing via signed-in user (bscs175@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-03-08T13:15:55.185Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-03-08T13:15:55.185Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"0987654321","name":"0987654321"}
+[debug] [2024-03-08T13:15:58.459Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-03-08T13:15:58.459Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-03-08T13:15:58.792Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\hassa\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\hassa\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:297:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
