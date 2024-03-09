@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Orignal/static/css/main.92167226.css",
+    "main.js": "/Orignal/static/js/main.41bf825d.js",
+    "static/media/Fyde_Illustration_Crypto_2-1326x1101.png": "/Orignal/static/media/Fyde_Illustration_Crypto_2-1326x1101.0d5e8ec2e040b8eb28bf.png",
+    "static/media/Top-Viewbbcbv-1-scaled.jpg": "/Orignal/static/media/Top-Viewbbcbv-1-scaled.e00c4b6ba34fb7e41d4c.jpg",
+    "static/media/Vise_front2-1326x1101.jpg": "/Orignal/static/media/Vise_front2-1326x1101.a789b926cf58b65b54be.jpg",
+    "static/media/logo003.png": "/Orignal/static/media/logo003.d214a193eba93d09cede.png",
+    "static/media/logo002.svg": "/Orignal/static/media/logo002.94952ff186d360fc7981480ea70220af.svg",
+    "index.html": "/Orignal/index.html",
+    "main.92167226.css.map": "/Orignal/static/css/main.92167226.css.map",
+    "main.41bf825d.js.map": "/Orignal/static/js/main.41bf825d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92167226.css",
+    "static/js/main.41bf825d.js"
+  ]
+}
